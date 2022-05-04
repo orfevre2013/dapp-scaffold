@@ -11,7 +11,7 @@ const nextConfig = {
     return [
       {
         // matching all API routes
-        source: "https://solana-api.projectserum.com/:path*",
+        source: "/solana-api.projectserum.com",
         headers: [
           { key: "Access-Control-Allow-Credentials", value: "true" },
           { key: "Access-Control-Allow-Origin", value: "*" },
